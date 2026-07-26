@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 372" width="1200" height="372" role="img" aria-labelledby="ttl dsc">
   <title id="ttl">Максим Грачев — аналитик данных</title>
-  <desc id="dsc">Аналитик данных: Python, SQL, визуализация. Студент направления «Прикладная информатика» (09.03.03), профиль «Искусственный интеллект и анализ данных». Рабочий процесс: 01 данные — сбор и валидация; 02 анализ — гипотезы и статистика; 03 решение — панель и рекомендации.</desc>
+  <desc id="dsc">Аналитик данных: Python, SQL, визуализация. Собираю датасет, проверяю гипотезы, считаю метрики, собираю панель. Учусь на «Прикладной информатике» (09.03.03), профиль «Искусственный интеллект и анализ данных». Рабочий процесс: 01 данные — сбор и валидация; 02 анализ — гипотезы и статистика; 03 решение — панель и рекомендации.</desc>
   <rect width="1200" height="372" fill="#FFFFFF"/>
   <text x="64" y="100" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#59667A" letter-spacing="3.4">DATA ANALYST · WITTE UNIVERSITY</text>
   <text x="64" y="172" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="58" font-weight="700" fill="#0B1220">Максим Грачев</text>
   <text x="64" y="212" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="21" fill="#59667A"><tspan fill="#A65F00" font-weight="700">Аналитик данных</tspan><tspan>  ·  Python · SQL · визуализация</tspan></text>
-  <text x="64" y="258" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="400" fill="#59667A">Превращаю сырые данные в выводы, на которые</text>
-  <text x="64" y="286" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="400" fill="#59667A">можно опираться при принятии решений.</text>
+  <text x="64" y="258" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="400" fill="#59667A">Собираю датасет, проверяю гипотезы,</text>
+  <text x="64" y="286" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="400" fill="#59667A">считаю метрики, собираю панель.</text>
   <rect x="688" y="68" width="448" height="224" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
   <rect x="712" y="86" width="4" height="14" rx="2" fill="#3ED8C6"/>
   <text x="726" y="98" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="700" fill="#FFB020" letter-spacing="2.6">WORKFLOW</text>

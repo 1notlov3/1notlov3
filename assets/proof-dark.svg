@@ -19,7 +19,7 @@
   <rect x="457" y="336" width="142" height="8" rx="4" fill="#3ED8C6"/>
   <rect x="794" y="188" width="341" height="174" rx="14" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
   <text x="822" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="44" font-weight="700" fill="#E9EEF7">≈655</text>
-  <text x="822" y="290" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">задержанных рейсов в год —</text>
+  <text x="822" y="290" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">задержанных рейсов в год,</text>
   <text x="822" y="314" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">операционная цена инцидентов</text>
   <line x1="822" y1="340" x2="1088" y2="340" stroke="#93A1B5" stroke-width="3" stroke-dasharray="26 14" opacity="0.45"/>
   <line x1="64" y1="386" x2="1136" y2="386" stroke="#24334A" stroke-width="1" opacity="1"/>

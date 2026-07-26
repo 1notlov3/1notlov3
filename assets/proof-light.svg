@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 424" width="1200" height="424" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Флагманский проект: аналитика IT-поддержки аэропорта</title>
+  <desc id="dsc">33 309 обращений за два года. 31 % срывов первичной реакции сосредоточены в пиковые часы; связь нагрузки службы с расписанием рейсов r = 0,5; ≈655 задержанных рейсов в год. Стек: Python (pandas, matplotlib, seaborn), SQL (SQLite, оконные функции, CTE), Jupyter, Chart.js.</desc>
+  <rect width="1200" height="424" fill="#FFFFFF"/>
+  <text x="64" y="64" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#59667A" letter-spacing="3.4">FLAGSHIP PROJECT · AIRPORT IT ANALYTICS</text>
+  <text x="64" y="116" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="40" font-weight="700" fill="#0B1220">Аналитика IT-поддержки аэропорта</text>
+  <text x="64" y="152" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="400" fill="#59667A">33 309 обращений за два года · от генерации датасета до интерактивной панели</text>
+  <rect x="64" y="188" width="341" height="174" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
+  <text x="92" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="44" font-weight="700" fill="#FFB020">31%</text>
+  <text x="92" y="290" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">срывов первичной реакции</text>
+  <text x="92" y="314" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">сосредоточены в пиковые часы</text>
+  <rect x="92" y="336" width="285" height="8" rx="4" fill="#93A1B5" opacity="0.35"/>
+  <rect x="92" y="336" width="88" height="8" rx="4" fill="#FFB020"/>
+  <rect x="429" y="188" width="341" height="174" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
+  <text x="457" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="44" font-weight="700" fill="#3ED8C6">r = 0,5</text>
+  <text x="457" y="290" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">связь нагрузки службы</text>
+  <text x="457" y="314" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">с расписанием рейсов</text>
+  <rect x="457" y="336" width="285" height="8" rx="4" fill="#93A1B5" opacity="0.35"/>
+  <rect x="457" y="336" width="142" height="8" rx="4" fill="#3ED8C6"/>
+  <rect x="794" y="188" width="341" height="174" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
+  <text x="822" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="44" font-weight="700" fill="#E9EEF7">≈655</text>
+  <text x="822" y="290" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">задержанных рейсов в год,</text>
+  <text x="822" y="314" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">операционная цена инцидентов</text>
+  <line x1="822" y1="340" x2="1088" y2="340" stroke="#93A1B5" stroke-width="3" stroke-dasharray="26 14" opacity="0.45"/>
+  <line x1="64" y1="386" x2="1136" y2="386" stroke="#E1E7F0" stroke-width="1" opacity="1"/>
+  <text x="64" y="410" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="400" fill="#59667A">Стек: Python (pandas, matplotlib, seaborn) · SQL (SQLite, оконные функции, CTE) · Jupyter · Chart.js</text>
+</svg>

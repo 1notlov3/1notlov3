@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 402" width="1200" height="402" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Boltushka24 — мессенджер сообществ</title>
+  <desc id="dsc">Серверы и каналы, личные сообщения, голос и видео, совместный просмотр YouTube. Реалтайм: шлю только id и действие, контент клиент забирает через авторизованный API. Оптимистичная отправка: показываю сообщение с временным id и меняю на реальный после ответа сервера. Права: проверяю роли ADMIN, MODERATOR и GUEST в одном модуле lib/permissions.ts. Стек: Next.js, React, TypeScript, Supabase (Postgres, Realtime, Storage), Prisma, Clerk, LiveKit, Vercel.</desc>
+  <rect width="1200" height="402" fill="#FFFFFF"/>
+  <text x="64" y="64" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#59667A" letter-spacing="3.4">PRODUCTION PROJECT · BOLTUSHKA24</text>
+  <text x="64" y="116" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="40" font-weight="700" fill="#0B1220">Boltushka24 — мессенджер сообществ</text>
+  <text x="64" y="152" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="400" fill="#59667A">Серверы и каналы, личные сообщения, голос и видео · совместный просмотр YouTube</text>
+  <rect x="64" y="188" width="341" height="150" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
+  <text x="92" y="224" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#3ED8C6" letter-spacing="1.4">REALTIME</text>
+  <text x="92" y="258" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">шлю только id и действие,</text>
+  <text x="92" y="282" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">контент клиент забирает</text>
+  <text x="92" y="306" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">через авторизованный API</text>
+  <rect x="429" y="188" width="341" height="150" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
+  <text x="457" y="224" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#FFB020" letter-spacing="1.4">OPTIMISTIC</text>
+  <text x="457" y="258" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">показываю с временным id,</text>
+  <text x="457" y="282" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">меняю на реальный после</text>
+  <text x="457" y="306" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">ответа сервера</text>
+  <rect x="794" y="188" width="341" height="150" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
+  <text x="822" y="224" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7" letter-spacing="1.4">PERMISSIONS</text>
+  <text x="822" y="258" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">проверяю ADMIN, MODERATOR</text>
+  <text x="822" y="282" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">и GUEST в одном модуле</text>
+  <text x="822" y="306" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">lib/permissions.ts</text>
+  <line x1="64" y1="364" x2="1136" y2="364" stroke="#E1E7F0" stroke-width="1" opacity="1"/>
+  <text x="64" y="388" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="400" fill="#59667A">Стек: Next.js · React · TypeScript · Supabase (Postgres, Realtime, Storage) · Prisma · Clerk · LiveKit · Vercel</text>
+</svg>

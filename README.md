@@ -38,7 +38,7 @@
 
 ---
 
-## ✈️ Разбор флагмана
+## ✈️ Разбор: аналитика аэропорта
 
 <p align="center">
   <picture>
@@ -56,6 +56,30 @@
 - 📊 собрал **[живую интерактивную панель](https://1notlov3.github.io/Airport-It-Analytics/dashboard/)** — открой, она интерактивная.
 
 **Стек:** Python (pandas, matplotlib, seaborn) · SQL (SQLite, оконные функции, CTE) · Jupyter · Chart.js
+
+---
+
+## 💬 Разбор: Boltushka24
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/boltushka-dark.svg">
+    <img src="assets/boltushka-light.svg" width="100%" alt="Boltushka24 — мессенджер сообществ. Реалтайм: броадкаст шлёт только id и действие, контент идёт через авторизованный API. Оптимистичный интерфейс: сообщение видно сразу с временным id, потом подменяется реальным. Права: роли ADMIN, MODERATOR и GUEST проверяются в одном слое.">
+  </picture>
+</p>
+
+Фулстек-мессенджер для сообществ, доведённый до продакшена:
+**[boltushka24.vercel.app](https://boltushka24.vercel.app)**. Серверы и каналы,
+личные сообщения, реалтайм, голосовые и видеокомнаты, совместный просмотр
+YouTube, роли и права, PWA с офлайн-очередью.
+
+Три решения, которыми проект интересен инженерно:
+
+- 🔒 **Реалтайм без утечек.** Supabase Realtime рассылает только `{ id, action }`, а сам контент клиент дозапрашивает через авторизованные API-роуты — приватные сообщения не уходят в публичный броадкаст;
+- ⚡ **Оптимистичная отправка.** Сообщение появляется мгновенно с временным id и подменяется реальным после ответа сервера — интерфейс не ждёт сеть;
+- 🛡 **Права в одном слое.** Роли `ADMIN` / `MODERATOR` / `GUEST` проверяются централизованно, а не дублируются по коду, поэтому поведение предсказуемо.
+
+**Стек:** Next.js · React · TypeScript · Tailwind · Supabase (Postgres, Realtime, Storage) · Prisma · Clerk · LiveKit · TanStack Query · Vercel
 
 ---
 

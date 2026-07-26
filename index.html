@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>kcalm — Say what you ate. It’s counted.</title>
+  <meta name="description" content="kcalm is a voice-first AI calorie tracker. Talk about what you ate like you’d tell a friend — it hears it, counts it, and logs calories and macros in one breath.">
+  <meta name="theme-color" content="#0A1B1D">
+  <meta property="og:title" content="kcalm — Say what you ate. It’s counted.">
+  <meta property="og:description" content="A voice-first AI calorie tracker. Dinner, logged in one breath. No forms, no search, no barcode gymnastics.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://1notlov3.github.io/1notlov3/">
+  <meta property="og:image" content="https://1notlov3.github.io/1notlov3/og.png">
+  <meta property="og:image:alt" content="A glowing amber pearl on dark water beside the headline “Dinner, logged in one breath” — kcalm, the voice-first calorie tracker.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/fraunces-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/schibsted-grotesk-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/spline-sans-mono-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a class="wordmark" href="#top" aria-label="kcalm — home"><span class="k">k</span>calm</a>
+    <nav class="nav-links" aria-label="Page">
+      <a href="#breath">How it listens</a>
+      <a href="#history">History</a>
+    </nav>
+    <a class="pill" href="#begin">Start speaking</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO — THE POOL ============ -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <canvas class="pool" id="pool" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <h1 class="hero-title" id="heroTitle">Dinner, logged in&nbsp;one&nbsp;breath.</h1>
+        <p class="hero-sub">Talk about what you ate the way you’d tell a friend. kcalm hears it, counts it, and logs the calories and macros before you’ve put your fork down.</p>
+
+        <div class="pearl-stage" id="pearlStage">
+          <p class="spoken-line" id="spokenLine" aria-hidden="true"></p>
+          <p class="sr-only" role="status" id="demoStatus"></p>
+          <button class="pearl" id="pearl" type="button">
+            <span class="pearl-core" aria-hidden="true"></span>
+            <span class="pearl-label">Tap to hear a<br>burrito get logged</span>
+          </button>
+
+          <div class="meal-card hero-card" id="heroCard" hidden>
+            <div class="meal-head">
+              <span class="meal-name">Chicken burrito <em>· extra guac</em></span>
+              <span class="meal-time mono">19:24</span>
+            </div>
+            <div class="meal-kcal"><span class="mono kcal-num" id="heroKcal" data-to="812">812</span><span class="kcal-unit">kcal</span></div>
+            <div class="macros" role="img" aria-label="Macros: protein 42 grams, carbs 71 grams, fat 40 grams">
+              <div class="macro"><span class="macro-tag"><i class="dot p"></i>Protein</span><span class="mono macro-val">42g</span><span class="bar"><span class="fill p" style="--w:52%"></span></span></div>
+              <div class="macro"><span class="macro-tag"><i class="dot c"></i>Carbs</span><span class="mono macro-val">71g</span><span class="bar"><span class="fill c" style="--w:88%"></span></span></div>
+              <div class="macro"><span class="macro-tag"><i class="dot f"></i>Fat</span><span class="mono macro-val">40g</span><span class="bar"><span class="fill f" style="--w:50%"></span></span></div>
+            </div>
+            <p class="ai-line">Logged. The guac was a good call — twelve grams of the fats you actually want.</p>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#breath">or scroll — we’ll show you</a>
+      </div>
+    </section>
+
+    <!-- ============ ONE BREATH — TRANSCRIPT ============ -->
+    <section class="section" id="breath" aria-labelledby="breath-h">
+      <p class="eyebrow mono reveal">How it listens</p>
+      <h2 class="reveal" id="breath-h">One breath.</h2>
+      <p class="section-sub reveal">A real morning, taken down as it was spoken. Order is time — nothing else to learn.</p>
+
+      <ol class="transcript">
+        <li class="t-line user reveal"><span class="tc mono">0:00</span><p class="said">“Morning. I had a latte and a banana on the way in.”</p></li>
+        <li class="t-line ai reveal"><span class="tc mono">0:03</span><p class="resp"><b>kcalm</b> Logged — latte with whole milk, plus a banana. About 340 calories, 11 grams of protein.</p></li>
+        <li class="t-line user reveal"><span class="tc mono">0:07</span><p class="said">“Actually it was oat milk. And the banana was pretty small.”</p></li>
+        <li class="t-line ai reveal"><span class="tc mono">0:09</span><p class="resp"><b>kcalm</b> Fixed. Oat-milk latte, small banana — 290 calories now. Your coffee order remains impeccable.</p></li>
+        <li class="t-line user reveal"><span class="tc mono">0:12</span><p class="said">“Where does that put me today?”</p></li>
+        <li class="t-line ai reveal"><span class="tc mono">0:14</span><p class="resp"><b>kcalm</b> 290 so far, 1,710 to go. Protein’s at 8 grams — plenty of day left to fix that.</p></li>
+      </ol>
+
+      <p class="kicker reveal">Fourteen seconds. No forms. No search. No barcode&nbsp;gymnastics.</p>
+    </section>
+
+    <!-- ============ ANATOMY — THE CARD ============ -->
+    <section class="section" id="anatomy" aria-labelledby="anatomy-h">
+      <p class="eyebrow mono reveal">What it heard</p>
+      <h2 class="reveal" id="anatomy-h">It hears “the banana was pretty&nbsp;small.”</h2>
+      <p class="section-sub reveal">Not just transcription — understanding. One card, assembled from a sentence.</p>
+
+      <div class="anatomy-grid">
+        <div class="meal-card big reveal">
+          <div class="meal-head">
+            <span class="meal-name">Morning coffee run</span>
+            <span class="meal-time mono">8:12</span>
+          </div>
+          <ul class="meal-items">
+            <li><span>Oat-milk latte</span><span class="mono">200</span></li>
+            <li><span>Small banana</span><span class="mono">90</span></li>
+          </ul>
+          <div class="meal-kcal"><span class="mono kcal-num" data-to="290">290</span><span class="kcal-unit">kcal</span></div>
+          <div class="macros" role="img" aria-label="Macros: protein 8 grams, carbs 44 grams, fat 9 grams">
+            <div class="macro"><span class="macro-tag"><i class="dot p"></i>Protein</span><span class="mono macro-val">8g</span><span class="bar"><span class="fill p" style="--w:18%"></span></span></div>
+            <div class="macro"><span class="macro-tag"><i class="dot c"></i>Carbs</span><span class="mono macro-val">44g</span><span class="bar"><span class="fill c" style="--w:82%"></span></span></div>
+            <div class="macro"><span class="macro-tag"><i class="dot f"></i>Fat</span><span class="mono macro-val">9g</span><span class="bar"><span class="fill f" style="--w:20%"></span></span></div>
+          </div>
+        </div>
+        <ul class="annotations">
+          <li class="reveal">290 — it counted the oat milk you said, not the almond you didn’t.</li>
+          <li class="reveal">Small banana, because you said <em>small</em>. Grams estimated, honestly.</li>
+          <li class="reveal">Macros split without you naming a single one.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CORRECTION — SAY ACTUALLY ============ -->
+    <section class="section" id="actually" aria-labelledby="actually-h">
+      <p class="eyebrow mono reveal">When you’re wrong out loud</p>
+      <h2 class="reveal" id="actually-h">Say “actually.” It re-does the&nbsp;math.</h2>
+      <p class="section-sub reveal">Change your mind mid-sentence. kcalm edits exactly what you said to change — and nothing else.</p>
+
+      <div class="correction reveal" id="correction">
+        <p class="said correction-said">“Actually, it was oat&nbsp;milk.”</p>
+        <div class="meal-card">
+          <div class="meal-head">
+            <span class="meal-name">Coffee &amp; a treat</span>
+            <span class="meal-time mono">10:05</span>
+          </div>
+          <ul class="meal-items">
+            <li>
+              <span>Cappuccino — <span class="swap"><s class="old" id="oldMilk" aria-hidden="true">whole milk</s> <span class="new" id="newMilk">oat milk</span></span></span>
+              <span class="swap-num mono"><s class="old" aria-hidden="true">120</s> <span class="new">80</span><span class="sr-only"> (corrected from whole milk, 120)</span></span>
+            </li>
+            <li><span>Banana-walnut muffin</span><span class="mono">430</span></li>
+          </ul>
+          <div class="meal-kcal"><span class="mono kcal-num" id="fixKcal" aria-hidden="true">510</span><span class="sr-only">510</span><span class="kcal-unit">kcal</span></div>
+          <p class="ai-line" id="fixLine">Fixed — oat milk. I’ve quietly returned 40 calories to your day. The muffin stands.</p>
+        </div>
+        <button class="replay mono" id="replayFix" type="button"><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 5A4 4 0 1 1 2 7.5M2.5 5V2M2.5 5H5.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg> replay</button>
+      </div>
+    </section>
+
+    <!-- ============ TODAY — THREE NUMBERS ============ -->
+    <section class="section" id="today" aria-labelledby="today-h">
+      <p class="eyebrow mono reveal">Today</p>
+      <h2 class="reveal" id="today-h">Your day, in three numbers.</h2>
+      <p class="section-sub reveal">A number, a line, a sentence. That’s the whole dashboard — no rings, no red, no&nbsp;guilt.</p>
+
+      <div class="stats">
+        <div class="stat reveal">
+          <span class="stat-num mono" data-to="1540">1,540</span>
+          <span class="stat-label">eaten</span>
+          <span class="stat-bar"><span class="stat-fill c" style="--w:74%"></span></span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num mono" data-to="460">460</span>
+          <span class="stat-label">left for dinner</span>
+          <span class="stat-bar"><span class="stat-fill dim" style="--w:26%"></span></span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num mono" data-to="96" data-suffix="g">96g</span>
+          <span class="stat-label">protein</span>
+          <span class="stat-bar"><span class="stat-fill p" style="--w:80%"></span></span>
+        </div>
+      </div>
+      <p class="insight reveal">“Dinner has plenty of room to be interesting.”</p>
+    </section>
+
+    <!-- ============ HISTORY ============ -->
+    <section class="section wide" id="history" aria-labelledby="history-h">
+      <div class="section-head">
+        <p class="eyebrow mono reveal">History</p>
+        <h2 class="reveal" id="history-h">Every meal, remembered.</h2>
+        <p class="section-sub reveal">A week of days you never once typed. Ask “what did I eat last Tuesday?” and it reads it back — each day titled by the AI that took&nbsp;it&nbsp;down.</p>
+      </div>
+      <div class="shelf-wrap reveal">
+        <ul class="shelf" id="shelf" tabindex="0" aria-label="Meal history, scrolls horizontally">
+          <li class="day"><span class="day-date mono">WED · JUL 22</span><span class="day-title">Ramen, Reconsidered</span><span class="day-kcal mono">1,870</span><span class="day-macros mono">89P · 239C · 62F</span></li>
+          <li class="day"><span class="day-date mono">TUE · JUL 21</span><span class="day-title">A Quiet 1,640</span><span class="day-kcal mono">1,640</span><span class="day-macros mono">102P · 184C · 55F</span></li>
+          <li class="day"><span class="day-date mono">MON · JUL 20</span><span class="day-title">The Day of Two Lunches</span><span class="day-kcal mono">2,210</span><span class="day-macros mono">96P · 281C · 78F</span></li>
+          <li class="day"><span class="day-date mono">SUN · JUL 19</span><span class="day-title">Soup Weather</span><span class="day-kcal mono">1,480</span><span class="day-macros mono">74P · 181C · 51F</span></li>
+          <li class="day"><span class="day-date mono">SAT · JUL 18</span><span class="day-title">Birthday, Accounted For</span><span class="day-kcal mono">2,540</span><span class="day-macros mono">81P · 342C · 94F</span></li>
+          <li class="day"><span class="day-date mono">FRI · JUL 17</span><span class="day-title">Textbook Friday</span><span class="day-kcal mono">1,790</span><span class="day-macros mono">98P · 214C · 60F</span></li>
+          <li class="day"><span class="day-date mono">THU · JUL 16</span><span class="day-title">The Great Bagel Detour</span><span class="day-kcal mono">1,950</span><span class="day-macros mono">85P · 261C · 63F</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ THE VOICE — QUIPS ============ -->
+    <section class="section" id="voice" aria-labelledby="voice-h">
+      <p class="eyebrow mono reveal">The voice</p>
+      <h2 class="reveal" id="voice-h">A coach that never sighs.</h2>
+      <p class="section-sub reveal">kcalm doesn’t do guilt. It does arithmetic, encouragement, and the occasional opinion about croissants.</p>
+      <ul class="quips">
+        <li class="reveal">“Logged. And for the record, a croissant is a valid breakfast.”</li>
+        <li class="reveal">“Third day straight hitting your protein. I’m not saying I’m proud. It’s just…&nbsp;noted.”</li>
+        <li class="reveal">“A handful of almonds — I’ll call it 23, because someone once counted, and I respect that.”</li>
+        <li class="reveal">“Pizza on a Tuesday is self-knowledge, not a failure. Logged: three slices.”</li>
+        <li class="reveal">“You’re 22 grams short on protein. A Greek yogurt would tie the room together.”</li>
+      </ul>
+    </section>
+
+    <!-- ============ BEGIN ============ -->
+    <section class="section begin" id="begin" aria-labelledby="begin-h">
+      <div class="begin-glow" aria-hidden="true"></div>
+      <h2 class="reveal" id="begin-h">Say it. It’s counted.</h2>
+      <p class="section-sub reveal">The whole pitch was this page. The product is even quieter.</p>
+      <button class="pearl small reveal" id="pearlEnd" type="button" aria-describedby="beginNote">
+        <span class="pearl-core" aria-hidden="true"></span>
+        <span class="pearl-label">Start speaking</span>
+      </button>
+      <p class="begin-note mono reveal" id="beginNote">replays the demo, upstairs</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="foot-line">kcalm — say it, and it’s counted.</p>
+    <p class="colophon mono">Set in Fraunces, Schibsted Grotesk &amp; Spline Sans Mono. Dark as a kitchen at midnight. ©&nbsp;2026 kcalm&nbsp;—&nbsp;a&nbsp;concept.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

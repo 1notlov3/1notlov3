@@ -1,36 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-labelledby="ttl dsc">
   <title id="ttl">Проекты</title>
-  <desc id="dsc">Airport-It-Analytics — 33 309 обращений, SLA, влияние на рейсы; Python, pandas, SQL; аналитика. Boltushka24 — мессенджер сообществ: чаты, голос и видео; Next.js, Supabase; фулстек. my-portfolio — личный сайт-портфолио на React; React, CSS; фронтенд. aura-voice-landing — лендинг AI-трекера калорий по голосу; HTML, CSS, JS; лендинг.</desc>
-  <rect width="1200" height="430" fill="#FFFFFF"/>
+  <desc id="dsc">AdminTools — 26 операций над удалёнными ПК; PowerShell, WPF, Active Directory; внутренний инструмент. Airport-It-Analytics — 33 309 обращений, SLA, влияние на рейсы; Python, pandas, SQL; аналитика. Boltushka24 — мессенджер сообществ: чаты, голос и видео; Next.js, Supabase; фулстек. my-portfolio — личный сайт-портфолио на React.</desc>
+  <rect x="0" y="0" width="1200" height="430" rx="0" fill="#FFFFFF"/>
   <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#59667A" letter-spacing="3.4">SELECTED WORK</text>
-  <line x1="64" y1="76" x2="1136" y2="76" stroke="#E1E7F0" stroke-width="1" opacity="1"/>
-  <rect x="64" y="96" width="1072" height="302" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
+  <line x1="64" y1="76" x2="1136" y2="76" stroke="#E1E7F0" stroke-width="1"/>
+  <rect x="64" y="96" width="1072" height="318" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
   <text x="88" y="126" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5" letter-spacing="2">ПРОЕКТ</text>
   <text x="352" y="126" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5" letter-spacing="2">ЧТО ЭТО</text>
   <text x="756" y="126" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5" letter-spacing="2">СТЕК</text>
   <text x="1000" y="126" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5" letter-spacing="2">ТИП</text>
-  <line x1="88" y1="142" x2="1112" y2="142" stroke="#22304A" stroke-width="1" opacity="1"/>
-  <text x="88" y="182" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">Airport-It-Analytics</text>
-  <text x="352" y="182" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">33 309 обращений, SLA, рейсы</text>
-  <text x="756" y="182" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6">Python · pandas · SQL</text>
-  <rect x="1000" y="164" width="112" height="26" rx="13" fill="none" stroke="#3ED8C6" stroke-width="1.2" opacity="0.8"/>
-  <text x="1056" y="182" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6" letter-spacing="1" text-anchor="middle">ANALYTICS</text>
+  <line x1="88" y1="142" x2="1112" y2="142" stroke="#22304A" stroke-width="1"/>
+  <text x="88" y="182" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">AdminTools</text>
+  <text x="352" y="182" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">26 операций над удалёнными ПК</text>
+  <text x="756" y="182" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6">PowerShell · WPF · AD</text>
+  <rect x="1000" y="164" width="112" height="26" rx="13" fill="none" stroke="#FFB020" stroke-width="1.2" opacity="0.8"/>
+  <text x="1056" y="182" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#FFB020" letter-spacing="1" text-anchor="middle">TOOLING</text>
   <line x1="88" y1="206" x2="1112" y2="206" stroke="#22304A" stroke-width="1" opacity="0.7"/>
-  <text x="88" y="246" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">Boltushka24</text>
-  <text x="352" y="246" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">мессенджер: чаты, голос, видео</text>
-  <text x="756" y="246" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6">Next.js · Supabase</text>
-  <rect x="1000" y="228" width="112" height="26" rx="13" fill="none" stroke="#FFB020" stroke-width="1.2" opacity="0.8"/>
-  <text x="1056" y="246" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#FFB020" letter-spacing="1" text-anchor="middle">FULLSTACK</text>
+  <text x="88" y="246" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">Airport-It-Analytics</text>
+  <text x="352" y="246" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">33 309 обращений, SLA, рейсы</text>
+  <text x="756" y="246" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6">Python · pandas · SQL</text>
+  <rect x="1000" y="228" width="112" height="26" rx="13" fill="none" stroke="#3ED8C6" stroke-width="1.2" opacity="0.8"/>
+  <text x="1056" y="246" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6" letter-spacing="1" text-anchor="middle">ANALYTICS</text>
   <line x1="88" y1="270" x2="1112" y2="270" stroke="#22304A" stroke-width="1" opacity="0.7"/>
-  <text x="88" y="310" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">my-portfolio</text>
-  <text x="352" y="310" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">личный сайт-портфолио на React</text>
-  <text x="756" y="310" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6">React · CSS</text>
+  <text x="88" y="310" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">Boltushka24</text>
+  <text x="352" y="310" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">мессенджер: чаты, голос, видео</text>
+  <text x="756" y="310" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6">Next.js · Supabase</text>
   <rect x="1000" y="292" width="112" height="26" rx="13" fill="none" stroke="#E9EEF7" stroke-width="1.2" opacity="0.8"/>
-  <text x="1056" y="310" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#E9EEF7" letter-spacing="1" text-anchor="middle">FRONTEND</text>
+  <text x="1056" y="310" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#E9EEF7" letter-spacing="1" text-anchor="middle">FULLSTACK</text>
   <line x1="88" y1="334" x2="1112" y2="334" stroke="#22304A" stroke-width="1" opacity="0.7"/>
-  <text x="88" y="374" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">aura-voice-landing</text>
-  <text x="352" y="374" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">лендинг AI-трекера калорий</text>
-  <text x="756" y="374" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6">HTML · CSS · JS</text>
+  <text x="88" y="374" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">my-portfolio</text>
+  <text x="352" y="374" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="400" fill="#93A1B5">личный сайт-портфолио на React</text>
+  <text x="756" y="374" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6">React · CSS</text>
   <rect x="1000" y="356" width="112" height="26" rx="13" fill="none" stroke="#93A1B5" stroke-width="1.2" opacity="0.8"/>
-  <text x="1056" y="374" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#93A1B5" letter-spacing="1" text-anchor="middle">LANDING</text>
+  <text x="1056" y="374" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#93A1B5" letter-spacing="1" text-anchor="middle">FRONTEND</text>
 </svg>

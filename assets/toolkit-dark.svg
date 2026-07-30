@@ -1,35 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 296" width="1200" height="296" role="img" aria-labelledby="ttl dsc">
   <title id="ttl">Инструменты</title>
-  <desc id="dsc">Язык и анализ: Python, pandas, NumPy. Визуализация: Matplotlib, seaborn, Chart.js. Данные: SQL, SQLite, Excel. Среда: Jupyter, Git, VS Code.</desc>
-  <rect width="1200" height="296" fill="#0D1117"/>
+  <desc id="dsc">API и данные: HTTP и REST API, JSON, XML, SQL (MS SQL). Код и скрипты: Python, PowerShell, JS/TS и React. Инфраструктура: Windows Server, Active Directory, Linux, VMware. Процессы: Jira, Confluence, Git, база знаний.</desc>
+  <rect x="0" y="0" width="1200" height="296" rx="0" fill="#0D1117"/>
   <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#8B99AE" letter-spacing="3.4">TOOLKIT</text>
-  <line x1="64" y1="76" x2="1136" y2="76" stroke="#24334A" stroke-width="1" opacity="1"/>
-  <text x="64" y="114" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFB020">Язык и анализ</text>
+  <line x1="64" y1="76" x2="1136" y2="76" stroke="#24334A" stroke-width="1"/>
+  <text x="64" y="114" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFB020">API и данные</text>
   <rect x="64" y="132" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="82" y="158" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">Python</text>
+  <text x="82" y="158" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">HTTP / REST API</text>
   <rect x="64" y="180" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="82" y="206" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">pandas</text>
+  <text x="82" y="206" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">JSON · XML</text>
   <rect x="64" y="228" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="82" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">NumPy</text>
-  <text x="337" y="114" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFB020">Визуализация</text>
+  <text x="82" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">SQL (MS SQL)</text>
+  <text x="337" y="114" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFB020">Код и скрипты</text>
   <rect x="337" y="132" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="355" y="158" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">Matplotlib</text>
+  <text x="355" y="158" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">Python</text>
   <rect x="337" y="180" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="355" y="206" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">seaborn</text>
+  <text x="355" y="206" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">PowerShell</text>
   <rect x="337" y="228" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="355" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">Chart.js</text>
-  <text x="610" y="114" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFB020">Данные</text>
+  <text x="355" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">JS / TS · React</text>
+  <text x="610" y="114" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFB020">Инфраструктура</text>
   <rect x="610" y="132" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="628" y="158" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">SQL</text>
+  <text x="628" y="158" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">Windows Server</text>
   <rect x="610" y="180" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="628" y="206" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">SQLite</text>
+  <text x="628" y="206" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">Active Directory</text>
   <rect x="610" y="228" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="628" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">Excel</text>
-  <text x="883" y="114" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFB020">Среда</text>
+  <text x="628" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">Linux · VMware</text>
+  <text x="883" y="114" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFB020">Процессы</text>
   <rect x="883" y="132" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="901" y="158" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">Jupyter</text>
+  <text x="901" y="158" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">Jira · Confluence</text>
   <rect x="883" y="180" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="901" y="206" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">Git</text>
+  <text x="901" y="206" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">Git</text>
   <rect x="883" y="228" width="253" height="40" rx="10" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
-  <text x="901" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">VS Code</text>
+  <text x="901" y="254" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#E9EEF7">База знаний</text>
 </svg>

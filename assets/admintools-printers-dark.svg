@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 545" width="1200" height="545" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">AdminTools — каталог принтеров</title>
+  <desc id="dsc">Схема экрана печати AdminTools: фильтр по запросу «терминал 2», каталог сервера печати на 818 принтеров, кнопка «Подключить». Таблица: принтер, размещение, драйвер, статус. Порядок действий: драйвер под SYSTEM, перезапуск спулера, подключение пользователю, проверка результата.</desc>
+  <rect x="0" y="0" width="1200" height="545" rx="0" fill="#0D1117"/>
+  <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#8B99AE" letter-spacing="3.4">ADMINTOOLS · КАТАЛОГ ПРИНТЕРОВ</text>
+  <line x1="64" y1="76" x2="1136" y2="76" stroke="#24334A" stroke-width="1"/>
+  <rect x="64" y="96" width="1072" height="420" rx="14" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
+  <text x="88" y="128" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="700" fill="#E9EEF7">AdminTools — печать и драйверы</text>
+  <text x="1112" y="128" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#FFB020" text-anchor="end">каталог сервера печати · 818 принтеров</text>
+  <line x1="88" y1="144" x2="1112" y2="144" stroke="#1E2C42" stroke-width="1"/>
+  <rect x="88" y="164" width="680" height="44" rx="10" fill="#0B1421" stroke="#1E2C42" stroke-width="1"/>
+  <text x="110" y="192" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">терминал 2</text>
+  <rect x="218" y="174" width="2" height="24" rx="0" fill="#3ED8C6"/>
+  <rect x="788" y="164" width="324" height="44" rx="10" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
+  <text x="950" y="192" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6" letter-spacing="1.4" text-anchor="middle">ПОДКЛЮЧИТЬ</text>
+  <text x="88" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="400" fill="#93A1B5" letter-spacing="2">ПРИНТЕР</text>
+  <text x="340" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="400" fill="#93A1B5" letter-spacing="2">РАЗМЕЩЕНИЕ</text>
+  <text x="700" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="400" fill="#93A1B5" letter-spacing="2">ДРАЙВЕР</text>
+  <text x="1000" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="400" fill="#93A1B5" letter-spacing="2">СТАТУС</text>
+  <line x1="88" y1="256" x2="1112" y2="256" stroke="#1E2C42" stroke-width="1"/>
+  <rect x="88" y="266" width="1024" height="38" rx="8" fill="#0B1421"/>
+  <rect x="88" y="266" width="3" height="38" rx="1.5" fill="#FFB020"/>
+  <text x="104" y="292" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="700" fill="#E9EEF7">PRN-T2-0143</text>
+  <text x="340" y="292" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Терминал 2 · стойка 14</text>
+  <text x="700" y="292" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#3ED8C6">Kyocera P3145dn</text>
+  <circle cx="1008" cy="287" r="4" fill="#3ED8C6"/>
+  <text x="1024" y="292" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#3ED8C6">ГОТОВ</text>
+  <line x1="104" y1="312" x2="1112" y2="312" stroke="#1E2C42" stroke-width="1" opacity="0.7"/>
+  <text x="104" y="336" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="700" fill="#E9EEF7">PRN-T2-0187</text>
+  <text x="340" y="336" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Терминал 2 · зона вылета</text>
+  <text x="700" y="336" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#3ED8C6">HP LaserJet M507</text>
+  <circle cx="1008" cy="331" r="4" fill="#3ED8C6"/>
+  <text x="1024" y="336" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#3ED8C6">ГОТОВ</text>
+  <line x1="104" y1="356" x2="1112" y2="356" stroke="#1E2C42" stroke-width="1" opacity="0.7"/>
+  <text x="104" y="380" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="700" fill="#E9EEF7">PRN-T2-0204</text>
+  <text x="340" y="380" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Терминал 2 · багаж</text>
+  <text x="700" y="380" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#3ED8C6">Zebra ZT411</text>
+  <circle cx="1008" cy="375" r="4" fill="#93A1B5"/>
+  <text x="1024" y="380" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5">ОФЛАЙН</text>
+  <line x1="104" y1="400" x2="1112" y2="400" stroke="#1E2C42" stroke-width="1" opacity="0.7"/>
+  <text x="104" y="424" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="700" fill="#E9EEF7">PRN-T2-0219</text>
+  <text x="340" y="424" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Терминал 2 · регистрация</text>
+  <text x="700" y="424" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#3ED8C6">Kyocera P3145dn</text>
+  <circle cx="1008" cy="419" r="4" fill="#3ED8C6"/>
+  <text x="1024" y="424" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#3ED8C6">ГОТОВ</text>
+  <line x1="88" y1="452" x2="1112" y2="452" stroke="#1E2C42" stroke-width="1"/>
+  <text x="88" y="486" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#E9EEF7">драйвер под SYSTEM</text>
+  <text x="260.6" y="486" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#FFB020">→</text>
+  <text x="277.6" y="486" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5">перезапуск спулера</text>
+  <text x="450.20000000000005" y="486" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#FFB020">→</text>
+  <text x="467.20000000000005" y="486" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5">подключение пользователю</text>
+  <text x="695.0" y="486" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#FFB020">→</text>
+  <text x="712.0" y="486" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5">проверка результата</text>
+</svg>

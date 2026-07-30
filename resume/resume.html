@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Максим Грачев — резюме</title>
+<!--
+  Исходник резюме. Правится здесь, PDF пересобирается одной командой:
+
+    chromium --headless --no-pdf-header-footer \
+             --print-to-pdf=maksim-grachev-cv.pdf resume.html
+
+  (подойдёт любой Chrome/Chromium; в браузере — «Печать» → «Сохранить в PDF»,
+  поля «Нет», фоновая графика включена)
+-->
+<style>
+  :root {
+    --paper: #F3F2F2;
+    --ink: #1A1A1A;
+    --muted: #4A4A4A;
+    --accent: #006786;
+    --rule: #1A1A1A;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #8A8A8A;
+    font-family: "EB Garamond", Georgia, "Times New Roman", "Liberation Serif", serif;
+    color: var(--ink);
+    font-size: 10.2pt;
+    line-height: 1.4;
+  }
+
+  .page {
+    position: relative;
+    width: 210mm;
+    height: 297mm;
+    padding: 18mm 18mm;
+    margin: 0 auto;
+    background: var(--paper);
+    overflow: hidden;
+  }
+
+  /* ------------------------------------------------ шапка первой страницы */
+  .name {
+    font-size: 32pt;
+    font-weight: 700;
+    letter-spacing: -0.4pt;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .role {
+    font-style: italic;
+    font-size: 13pt;
+    color: var(--muted);
+    margin: 3mm 0 4mm;
+  }
+
+  .contacts {
+    font-size: 10pt;
+    line-height: 1.6;
+    max-width: 125mm;
+  }
+
+  .contacts a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 7mm;
+  }
+
+  .photo {
+    position: absolute;
+    top: 18mm;
+    right: 18mm;
+    width: 32mm;
+    height: 40mm;
+    object-fit: cover;
+    border: 0.4pt solid #C8C8C8;
+  }
+
+  .rule-double {
+    border: 0;
+    border-top: 1.6pt solid var(--rule);
+    border-bottom: 0.5pt solid var(--rule);
+    height: 1.6mm;
+    margin: 7mm 0 8mm;
+  }
+
+  /* --------------------------------------------------------- сетка секций */
+  .row {
+    display: grid;
+    grid-template-columns: 38mm 1fr;
+    gap: 0 6mm;
+    margin-bottom: 5.5mm;
+  }
+
+  .label {
+    font-size: 8.5pt;
+    letter-spacing: 1.6pt;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-top: 1mm;
+  }
+
+  .summary { text-align: justify; }
+
+  /* ------------------------------------------------------------- навыки */
+  .skills {
+    display: grid;
+    grid-template-columns: 34mm 1fr;
+    gap: 2.6mm 5mm;
+  }
+
+  .skills dt {
+    font-style: italic;
+    color: var(--muted);
+  }
+
+  .skills dd { margin: 0; }
+
+  /* --------------------------------------------------------------- опыт */
+  .job + .job { margin-top: 5mm; }
+
+  .job-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6mm;
+  }
+
+  .job-title {
+    font-size: 13pt;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .job-date {
+    font-size: 9.5pt;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .job-org {
+    font-style: italic;
+    color: var(--muted);
+    margin: 0.8mm 0 2mm;
+  }
+
+  .job-intro { margin: 0 0 2mm; }
+
+  ul {
+    margin: 0;
+    padding-left: 5.5mm;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 1.6mm;
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    left: -5mm;
+    top: 1.7mm;
+    width: 1.4mm;
+    height: 1.4mm;
+    background: var(--accent);
+  }
+
+  /* ------------------------------------------------------------ проекты */
+  .project + .project { margin-top: 3.5mm; }
+
+  .project-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6mm;
+  }
+
+  .project-title {
+    font-size: 12pt;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .project-link {
+    font-size: 9.5pt;
+    color: var(--accent);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .project p {
+    margin: 1.2mm 0 0;
+    text-align: justify;
+  }
+
+  .stack {
+    font-style: italic;
+    color: var(--muted);
+  }
+
+  /* --------------------------------------------------------- образование */
+  .edu + .edu { margin-top: 3.5mm; }
+
+  .edu-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6mm;
+  }
+
+  .edu-title {
+    font-size: 12pt;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .edu-note {
+    font-style: italic;
+    color: var(--muted);
+    margin: 0.6mm 0 0;
+  }
+
+  /* ---------------------------------------------- колонтитул 2-й страницы */
+  .running-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 10.5pt;
+    font-weight: 700;
+  }
+
+  .running-head span {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--muted);
+  }
+
+  .rule-thin {
+    border: 0;
+    border-top: 0.8pt solid var(--rule);
+    margin: 4mm 0 7mm;
+  }
+
+  @page { size: A4; margin: 0; }
+
+  @media print {
+    html, body { background: var(--paper); }
+    .page { margin: 0; page-break-after: always; }
+    .page:last-child { page-break-after: auto; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================================================== страница 1 ==== -->
+<section class="page">
+  <img class="photo" src="photo.jpg" alt="Максим Грачев">
+
+  <h1 class="name">Максим Грачев</h1>
+  <p class="role">Специалист поддержки интеграций · вторая линия</p>
+  <div class="contacts">
+    <span style="margin-right: 7mm">Москва · готов к удалёнке</span>
+    <a href="https://t.me/Grachev_M">Telegram @Grachev_M</a>
+    <a href="https://github.com/1notlov3">github.com/1notlov3</a><br>
+    Английский — B2
+  </div>
+
+  <hr class="rule-double">
+
+  <div class="row">
+    <div class="label">О себе</div>
+    <div class="summary">
+      Почти 3 года в технической поддержке и разработке, последний год — на
+      второй линии: разбираю эскалации по внутренним системам аэропорта,
+      локализую сбой между приложением, базой данных, сетью и внешними
+      интеграциями. Работаю с REST API, SQL, JSON и XML, пишу на Python и
+      PowerShell внутренние инструменты автоматизации — на одном из них,
+      AdminTools, сегодня держится ежедневная работа первой линии. Довожу
+      проблему до причины, даже когда она не на моей стороне.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Навыки</div>
+    <dl class="skills">
+      <dt>API и данные</dt>
+      <dd>HTTP / REST API, JSON, XML, SQL (MS SQL), Excel</dd>
+      <dt>Код и скрипты</dt>
+      <dd>Python, PowerShell 5.1 + WPF, Bash, JS/TS, React</dd>
+      <dt>Инфраструктура</dt>
+      <dd>Windows Server, Active Directory, Linux, VMware Horizon</dd>
+      <dt>Процессы</dt>
+      <dd>Jira, Confluence, Git, база знаний</dd>
+    </dl>
+  </div>
+
+  <div class="row">
+    <div class="label">Опыт работы</div>
+    <div>
+      <article class="job">
+        <div class="job-head">
+          <h2 class="job-title">Ведущий специалист<br>технической поддержки</h2>
+          <div class="job-date">Окт 2025 — н.в.</div>
+        </div>
+        <p class="job-org">Домодедово Хендлинг</p>
+        <p class="job-intro">
+          Вторая линия поддержки внутренних систем аэропорта — багажная
+          система, видеонаблюдение, расчёт оплаты труда, бухгалтерия — для
+          нескольких тысяч сотрудников, 10–15&nbsp;эскалаций в день.
+        </p>
+        <ul>
+          <li>Принимаю эскалации первой линии: локализую причину сбоя между
+              клиентом, приложением, БД и интеграциями систем, довожу до
+              исправления</li>
+          <li>Пишу SQL-запросы к базам систем для проверки данных и разбора
+              расхождений в отчётах и начислениях</li>
+          <li>Разработал AdminTools — утилиту техподдержки на PowerShell 5.1
+              и WPF (~5&nbsp;000 строк, 26 операций над удалёнными ПК); по итогам
+              аудита устранил 26 багов и уязвимостей. Разбор — в блоке
+              «Проекты»</li>
+          <li>Автоматизировал подключение принтеров: каталог из 818&nbsp;принтеров
+              с мгновенной фильтрацией и установкой драйвера под SYSTEM —
+              вместо ручного прохода через MMC и .bat на рабочем столе</li>
+          <li>Веду базу знаний — часть обращений закрывается на первой линии
+              без эскалации</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================== страница 2 ==== -->
+<section class="page">
+  <div class="running-head">
+    Максим Грачев
+    <span>Резюме · страница 2</span>
+  </div>
+  <hr class="rule-thin">
+
+  <div class="row">
+    <div class="label">Опыт работы</div>
+    <div>
+      <article class="job">
+        <div class="job-head">
+          <h2 class="job-title">Старший техник</h2>
+          <div class="job-date">Сен 2024 — Апр 2025</div>
+        </div>
+        <p class="job-org">ФЦНИВТ СНПО «Элерон»</p>
+        <ul>
+          <li>Подготовка и проверка технической и проектной документации на
+              соответствие требованиям, согласование правок</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <h2 class="job-title">Стажёр</h2>
+          <div class="job-date">Сен — Дек 2023</div>
+        </div>
+        <p class="job-org">S7 IT</p>
+        <ul>
+          <li>Администрировал виртуальные рабочие места на VMware Horizon:
+              подключение, настройка, устранение неполадок</li>
+          <li>Сопровождал руководство и директоров компании: приоритетные
+              обращения, индивидуальная настройка рабочих мест</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <h2 class="job-title">Веб-разработчик</h2>
+          <div class="job-date">Сен 2022 — Сен 2023</div>
+        </div>
+        <p class="job-org">Фриланс</p>
+        <ul>
+          <li>Сайты и веб-приложения — от лендингов до фулстек-проектов на
+              React и Next.js</li>
+          <li>Интеграции с внешними сервисами через API: JSON/XML,
+              realtime-каналы (Supabase), авторизация (Clerk), видеозвонки
+              (LiveKit)</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Проекты</div>
+    <div>
+      <article class="project">
+        <div class="project-head">
+          <h2 class="project-title">AdminTools — утилита техподдержки</h2>
+          <span class="project-link">внутренний инструмент</span>
+        </div>
+        <p>
+          Поиск ПК по имени, ФИО, логину, телефону или кабинету и 26 действий
+          над машиной — от RDP и установки принтера до восстановления служб ИБ.
+          Поиск перенёс с pclist.csv на сетевой шаре, отказ которой оставлял
+          поддержку без поиска вообще, на Active Directory и локальную
+          накопительную историю. Сетевые операции — в пуле runspace с таймером,
+          без DoEvents и Start-Sleep: окно не зависает на недоступной машине.
+          Регистрацию задач перевёл со schtasks.exe на COM — пароль
+          администратора больше не попадает в командную строку и журналы
+          аудита. Только штатные компоненты Windows: без сторонних библиотек,
+          .exe и RSAT — требование закрытой сети.
+          <span class="stack">PowerShell 5.1, WPF, Active Directory,
+          конфигурация в Config.psd1.</span>
+        </p>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2 class="project-title">Boltushka24 — мессенджер сообществ</h2>
+          <a class="project-link"
+             href="https://github.com/1notlov3/Boltushka24">github.com/1notlov3/Boltushka24</a>
+        </div>
+        <p>
+          Серверы и каналы, личные сообщения, realtime, голос и видео,
+          совместный просмотр YouTube, роли и права, PWA с офлайн-очередью.
+          <span class="stack">Next.js, React, TypeScript, Supabase, Prisma,
+          Clerk, LiveKit.</span>
+        </p>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2 class="project-title">Airport IT Analytics</h2>
+          <a class="project-link"
+             href="https://github.com/1notlov3/Airport-It-Analytics">github.com/1notlov3/Airport-It-Analytics</a>
+        </div>
+        <p>
+          Разбор 33&nbsp;309 обращений техподдержки за два года: метрики SLA, оценка
+          влияния инцидентов на рейсы (≈655&nbsp;задержанных рейсов в год),
+          интерактивная панель.
+          <span class="stack">Python, pandas, SQL (оконные функции, CTE),
+          Jupyter, Chart.js.</span>
+        </p>
+      </article>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Образование</div>
+    <div>
+      <div class="edu">
+        <div class="edu-head">
+          <h2 class="edu-title">Московский университет им. С. Ю. Витте</h2>
+          <div class="job-date">выпуск 2027</div>
+        </div>
+        <p class="edu-note">Прикладная информатика — ИИ и анализ данных,
+          бакалавриат</p>
+      </div>
+      <div class="edu">
+        <div class="edu-head">
+          <h2 class="edu-title">Колледж «Царицыно»</h2>
+          <div class="job-date">2025</div>
+        </div>
+        <p class="edu-note">Информационные системы и программирование</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

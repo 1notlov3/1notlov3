@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">AdminTools — поиск и карточка ПК</title>
+  <desc id="dsc">Схема интерфейса AdminTools. Строка поиска: имя ПК, ФИО, логин, телефон или кабинет — ищет в Active Directory и в локальной истории. Слева карточка машины PC-0412: пользователь, телефон, кабинет, ОС, адрес, источник данных. Справа плитка действий: подключиться по RDP, установить принтер, восстановить службы информационной безопасности, диск и очистка, сеанс пользователя, установка ПО, и ещё 20 действий из Config.psd1. Внизу: опрос сети идёт в пуле runspace на 8 потоков, окно остаётся отзывчивым.</desc>
+  <rect x="0" y="0" width="1200" height="640" rx="0" fill="#FFFFFF"/>
+  <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#59667A" letter-spacing="3.4">ADMINTOOLS · ПОИСК И КАРТОЧКА ПК</text>
+  <line x1="64" y1="76" x2="1136" y2="76" stroke="#E1E7F0" stroke-width="1"/>
+  <rect x="64" y="96" width="1072" height="512" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
+  <text x="88" y="128" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="700" fill="#E9EEF7">AdminTools — техподдержка</text>
+  <text x="1112" y="128" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#FFB020" text-anchor="end">PowerShell 5.1 · WPF</text>
+  <line x1="88" y1="144" x2="1112" y2="144" stroke="#22304A" stroke-width="1"/>
+  <rect x="88" y="164" width="800" height="44" rx="10" fill="#0A1220" stroke="#22304A" stroke-width="1"/>
+  <text x="110" y="192" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="18" font-weight="400" fill="#E9EEF7">Иванов</text>
+  <rect x="180" y="174" width="2" height="24" rx="0" fill="#3ED8C6"/>
+  <rect x="908" y="164" width="204" height="44" rx="10" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
+  <text x="1010" y="192" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" font-weight="400" fill="#3ED8C6" letter-spacing="1.4" text-anchor="middle">НАЙТИ</text>
+  <text x="88" y="234" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="400" fill="#93A1B5">имя ПК · ФИО · логин · телефон · кабинет — ищет в Active Directory и в локальной истории</text>
+  <rect x="88" y="254" width="420" height="250" rx="10" fill="#0A1220" stroke="#22304A" stroke-width="1"/>
+  <text x="112" y="290" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="20" font-weight="700" fill="#E9EEF7">PC-0412</text>
+  <text x="484" y="290" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#3ED8C6" text-anchor="end">в сети</text>
+  <circle cx="428" cy="285" r="4" fill="#3ED8C6"/>
+  <text x="112" y="326" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">Пользователь</text>
+  <text x="484" y="326" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#E9EEF7" text-anchor="end">Иванов Иван Иванович</text>
+  <text x="112" y="355" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">Телефон</text>
+  <text x="484" y="355" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#E9EEF7" text-anchor="end">4512</text>
+  <text x="112" y="384" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">Кабинет</text>
+  <text x="484" y="384" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#E9EEF7" text-anchor="end">214</text>
+  <text x="112" y="413" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">ОС</text>
+  <text x="484" y="413" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#E9EEF7" text-anchor="end">Windows 10 22H2</text>
+  <text x="112" y="442" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">Адрес</text>
+  <text x="484" y="442" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#E9EEF7" text-anchor="end">10.0.14.87</text>
+  <text x="112" y="471" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">Источник</text>
+  <text x="484" y="471" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#E9EEF7" text-anchor="end">AD + локальная история</text>
+  <text x="532" y="272" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#93A1B5" letter-spacing="2">ДЕЙСТВИЯ</text>
+  <text x="1112" y="272" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#FFB020" text-anchor="end">26 в списке</text>
+  <rect x="532" y="290" width="280" height="46" rx="10" fill="#0A1220" stroke="#22304A" stroke-width="1"/>
+  <rect x="548" y="307" width="12" height="12" rx="3" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
+  <text x="572" y="320" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Подключиться по RDP</text>
+  <rect x="836" y="290" width="280" height="46" rx="10" fill="#0A1220" stroke="#22304A" stroke-width="1"/>
+  <rect x="852" y="307" width="12" height="12" rx="3" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
+  <text x="876" y="320" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Установить принтер</text>
+  <rect x="532" y="350" width="280" height="46" rx="10" fill="#0A1220" stroke="#22304A" stroke-width="1"/>
+  <rect x="548" y="367" width="12" height="12" rx="3" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
+  <text x="572" y="380" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Восстановить службы ИБ</text>
+  <rect x="836" y="350" width="280" height="46" rx="10" fill="#0A1220" stroke="#22304A" stroke-width="1"/>
+  <rect x="852" y="367" width="12" height="12" rx="3" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
+  <text x="876" y="380" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Диск и очистка</text>
+  <rect x="532" y="410" width="280" height="46" rx="10" fill="#0A1220" stroke="#22304A" stroke-width="1"/>
+  <rect x="548" y="427" width="12" height="12" rx="3" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
+  <text x="572" y="440" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Сеанс пользователя</text>
+  <rect x="836" y="410" width="280" height="46" rx="10" fill="#0A1220" stroke="#22304A" stroke-width="1"/>
+  <rect x="852" y="427" width="12" height="12" rx="3" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
+  <text x="876" y="440" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Установка ПО</text>
+  <text x="532" y="486" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="400" fill="#93A1B5">…и ещё 20 — состав действий задан в Config.psd1</text>
+  <line x1="88" y1="522" x2="1112" y2="522" stroke="#22304A" stroke-width="1"/>
+  <text x="88" y="552" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="400" fill="#93A1B5">Опрос сети идёт в пуле runspace — окно остаётся отзывчивым</text>
+  <text x="1112" y="552" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#FFB020" text-anchor="end">8 потоков</text>
+  <text x="88" y="582" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="#93A1B5"><tspan fill="#FFB020">[14:02:14]</tspan><tspan > Печать: драйвер установлен под SYSTEM · спулер перезапущен · </tspan><tspan fill="#3ED8C6">OK</tspan></text>
+</svg>

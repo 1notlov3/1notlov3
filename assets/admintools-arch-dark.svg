@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">AdminTools — как устроено</title>
+  <desc id="dsc">Данные: Active Directory для поиска объекта в домене, локальная накопительная история с ПК, пользователем, телефоном и кабинетом, без файловых шар. Выполнение: пул runspace, таймер собирает результат, без DoEvents и Start-Sleep. Безопасность: задача регистрируется через COM, а не через schtasks.exe, пароль не попадает в командную строку и в журналы аудита, временные XML на общий диск не пишутся. Только штатные компоненты Windows — без сторонних библиотек, .exe и RSAT; пути, серверы и все 26 действий описаны в Config.psd1.</desc>
+  <rect x="0" y="0" width="1200" height="460" rx="0" fill="#0D1117"/>
+  <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#8B99AE" letter-spacing="3.4">ADMINTOOLS · КАК УСТРОЕНО</text>
+  <line x1="64" y1="76" x2="1136" y2="76" stroke="#24334A" stroke-width="1"/>
+  <rect x="64" y="96" width="332" height="252" rx="12" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
+  <text x="88" y="132" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="700" fill="#FFB020" letter-spacing="2.4">ДАННЫЕ</text>
+  <line x1="88" y1="148" x2="372" y2="148" stroke="#1E2C42" stroke-width="1"/>
+  <rect x="88" y="177" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="108" y="186" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Active Directory</text>
+  <text x="108" y="208" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">поиск объекта в домене</text>
+  <rect x="88" y="233" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="108" y="242" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Локальная история</text>
+  <text x="108" y="264" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">ПК, пользователь, телефон, кабинет</text>
+  <rect x="88" y="289" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="108" y="298" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Без файловых шар</text>
+  <text x="108" y="320" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">отваливаться нечему</text>
+  <rect x="434" y="96" width="332" height="252" rx="12" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
+  <text x="458" y="132" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="700" fill="#FFB020" letter-spacing="2.4">ВЫПОЛНЕНИЕ</text>
+  <line x1="458" y1="148" x2="742" y2="148" stroke="#1E2C42" stroke-width="1"/>
+  <rect x="458" y="177" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="478" y="186" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Пул runspace</text>
+  <text x="478" y="208" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">сеть уходит в фоновые потоки</text>
+  <rect x="458" y="233" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="478" y="242" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Таймер собирает результат</text>
+  <text x="478" y="264" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">интерфейс не ждёт ответа</text>
+  <rect x="458" y="289" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="478" y="298" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Без DoEvents и Start-Sleep</text>
+  <text x="478" y="320" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">окно не подвисает</text>
+  <rect x="804" y="96" width="332" height="252" rx="12" fill="#101A2B" stroke="#1E2C42" stroke-width="1"/>
+  <text x="828" y="132" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="700" fill="#FFB020" letter-spacing="2.4">БЕЗОПАСНОСТЬ</text>
+  <line x1="828" y1="148" x2="1112" y2="148" stroke="#1E2C42" stroke-width="1"/>
+  <rect x="828" y="177" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="848" y="186" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Задача через COM</text>
+  <text x="848" y="208" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">а не через schtasks.exe</text>
+  <rect x="828" y="233" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="848" y="242" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Пароль не в командной строке</text>
+  <text x="848" y="264" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">и не в журналах аудита</text>
+  <rect x="828" y="289" width="8" height="8" rx="2" fill="#3ED8C6"/>
+  <text x="848" y="298" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#E9EEF7">Без временных XML</text>
+  <text x="848" y="320" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="400" fill="#93A1B5">ничего не пишем на общий диск</text>
+  <line x1="64" y1="376" x2="1136" y2="376" stroke="#24334A" stroke-width="1"/>
+  <text x="64" y="406" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#8B99AE">Только штатные компоненты Windows — без сторонних библиотек, .exe и RSAT.</text>
+  <text x="64" y="432" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#8B99AE">Пути, серверы и все 26 действий описаны в Config.psd1 — без правки кода.</text>
+</svg>

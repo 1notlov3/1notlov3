@@ -1,0 +1,37 @@
+name: Обновление баннера статистики
+
+on:
+  schedule:
+    # каждый понедельник в 04:10 UTC
+    - cron: "10 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Собрать данные и перерисовать баннер
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 assets/stats.py
+
+      - name: Закоммитить, если что-то изменилось
+        run: |
+          if git diff --quiet -- assets/stats.json assets/stats-dark.svg assets/stats-light.svg; then
+            echo "Данные не изменились — коммит не нужен."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.json assets/stats-dark.svg assets/stats-light.svg
+          git commit -m "Статистика профиля: обновление данных"
+          git push

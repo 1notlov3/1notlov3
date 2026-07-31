@@ -106,7 +106,7 @@ Windows: ни сторонних библиотек, ни `.exe`, ни RSAT — 
 | Проект | Что это | Стек |
 | --- | --- | --- |
 | **AdminTools**<br>внутренний инструмент | Утилита техподдержки: поиск ПК по имени, ФИО, логину, телефону или кабинету и 26 действий над машиной | PowerShell 5.1 · WPF · Active Directory |
-| **[Airport-It-Analytics](https://github.com/1notlov3/Airport-It-Analytics)**<br>[→ живая панель](https://1notlov3.github.io/Airport-It-Analytics/dashboard/) Учебная аналитика IT-поддержки аэропорта на сгенерированном датасете: 33 309 обращений, SLA, влияние инцидентов на рейсы | Python · pandas · SQL · Jupyter |
+| **[Airport-It-Analytics](https://github.com/1notlov3/Airport-It-Analytics)**<br>[→ живая панель](https://1notlov3.github.io/Airport-It-Analytics/dashboard/) | Учебная аналитика IT-поддержки аэропорта на сгенерированном датасете: 33 309 обращений, SLA, влияние инцидентов на рейсы | Python · pandas · SQL · Jupyter |
 | **[Boltushka24](https://github.com/1notlov3/Boltushka24)**<br>[→ boltushka24.vercel.app](https://boltushka24.vercel.app) | Мессенджер для сообществ: серверы и каналы, личные сообщения, реалтайм, голос и видео, совместный просмотр YouTube | Next.js · React · TypeScript · Supabase · Prisma · LiveKit |
 | **[my-portfolio](https://github.com/1notlov3/my-portfolio)**<br>[→ демо](https://1notlov3.github.io/my-portfolio/) | Личный сайт-портфолио: разделы о себе, навыках и проектах | React · JavaScript · CSS |
 | **[aura-voice-landing](https://github.com/1notlov3/aura-voice-landing)** | Лендинг Aura, голосового AI-трекера калорий | HTML · CSS · JavaScript |
@@ -203,14 +203,16 @@ Windows: ни сторонних библиотек, ни `.exe`, ни RSAT — 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=1notlov3&show_icons=true&locale=ru&hide_border=true&rank_icon=percentile&bg_color=0D1117&title_color=FFB020&icon_color=3ED8C6&text_color=8B99AE">
-    <img height="165" alt="Статистика GitHub пользователя 1notlov3" src="https://github-readme-stats.vercel.app/api?username=1notlov3&show_icons=true&locale=ru&hide_border=true&rank_icon=percentile&bg_color=FFFFFF&title_color=A65F00&icon_color=0B8C7F&text_color=59667A">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=1notlov3&layout=compact&locale=ru&hide_border=true&hide=html,css,scss,astro&bg_color=0D1117&title_color=FFB020&text_color=8B99AE">
-    <img height="165" alt="Языки в репозиториях пользователя 1notlov3" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1notlov3&layout=compact&locale=ru&hide_border=true&hide=html,css,scss,astro&bg_color=FFFFFF&title_color=A65F00&text_color=59667A">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <img src="assets/stats-light.svg" width="100%" alt="Статистика профиля GitHub @1notlov3 на 2026-07-31. Публичных репозиториев: 16. Звёзд: 3. Подписчиков: неизвестно. Языки в публичных репозиториях: HTML — 7 из 14 репозиториев, JavaScript — 2 из 14 репозиториев, TypeScript — 1 из 14 репозиториев, Jupyter Notebook — 1 из 14 репозиториев, Astro — 1 из 14 репозиториев.">
   </picture>
 </p>
+
+<sub>Баннер собирается из GitHub API скриптом
+<a href="assets/stats.py"><code>assets/stats.py</code></a> и обновляется
+еженедельно через
+<a href=".github/workflows/stats.yml">GitHub Actions</a> — сторонних сервисов
+нет, ломаться нечему.</sub>
 
 ---
 

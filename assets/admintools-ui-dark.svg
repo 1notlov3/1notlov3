@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="ttl dsc">
   <title id="ttl">AdminTools — поиск и карточка ПК</title>
-  <desc id="dsc">Схема интерфейса AdminTools. Строка поиска: имя ПК, ФИО, логин, телефон или кабинет — ищет в Active Directory и в локальной истории. Слева карточка машины PC-0412: пользователь, телефон, кабинет, ОС, адрес, источник данных. Справа плитка действий: подключиться по RDP, установить принтер, восстановить службы информационной безопасности, диск и очистка, сеанс пользователя, установка ПО, и ещё 20 действий из Config.psd1. Внизу: опрос сети идёт в пуле runspace на 8 потоков, окно остаётся отзывчивым.</desc>
+  <desc id="dsc">Схема интерфейса AdminTools. Строка поиска: имя ПК, ФИО, логин, телефон или кабинет — ищет в Active Directory и в локальной истории. Слева карточка машины PC-0412: пользователь, телефон, кабинет, ОС, адрес, источник данных. Справа плитка действий: подключиться по RDP, установить принтер, службы и процессы, диск и очистка, сеанс пользователя, установка ПО, и ещё 20 действий из Config.psd1. Внизу: опрос сети идёт в пуле runspace на 8 потоков, окно остаётся отзывчивым.</desc>
   <rect x="0" y="0" width="1200" height="640" rx="0" fill="#0D1117"/>
   <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#8B99AE" letter-spacing="3.4">ADMINTOOLS · ПОИСК И КАРТОЧКА ПК</text>
   <line x1="64" y1="76" x2="1136" y2="76" stroke="#24334A" stroke-width="1"/>
@@ -40,7 +40,7 @@
   <text x="876" y="320" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Установить принтер</text>
   <rect x="532" y="350" width="280" height="46" rx="10" fill="#0B1421" stroke="#1E2C42" stroke-width="1"/>
   <rect x="548" y="367" width="12" height="12" rx="3" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
-  <text x="572" y="380" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Восстановить службы ИБ</text>
+  <text x="572" y="380" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Службы и процессы</text>
   <rect x="836" y="350" width="280" height="46" rx="10" fill="#0B1421" stroke="#1E2C42" stroke-width="1"/>
   <rect x="852" y="367" width="12" height="12" rx="3" fill="none" stroke="#3ED8C6" stroke-width="1.2"/>
   <text x="876" y="380" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">Диск и очистка</text>
@@ -54,5 +54,5 @@
   <line x1="88" y1="522" x2="1112" y2="522" stroke="#1E2C42" stroke-width="1"/>
   <text x="88" y="552" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="400" fill="#93A1B5">Опрос сети идёт в пуле runspace — окно остаётся отзывчивым</text>
   <text x="1112" y="552" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="400" fill="#FFB020" text-anchor="end">8 потоков</text>
-  <text x="88" y="582" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="#93A1B5"><tspan fill="#FFB020">[14:02:14]</tspan><tspan > Печать: драйвер установлен под SYSTEM · спулер перезапущен · </tspan><tspan fill="#3ED8C6">OK</tspan></text>
+  <text x="88" y="582" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="#93A1B5"><tspan fill="#FFB020">[14:02:14]</tspan><tspan > Печать: драйвер установлен · спулер перезапущен · </tspan><tspan fill="#3ED8C6">OK</tspan></text>
 </svg>

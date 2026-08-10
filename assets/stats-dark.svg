@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-labelledby="ttl dsc">
   <title id="ttl">Статистика GitHub</title>
-  <desc id="dsc">Статистика профиля GitHub @1notlov3 на 2026-08-03. Публичных репозиториев: 18. Звёзд: 3. Подписчиков: 1. Языки в публичных репозиториях: HTML — 7 из 15 репозиториев, Python — 2 из 15 репозиториев, JavaScript — 2 из 15 репозиториев, Jupyter Notebook — 1 из 15 репозиториев, TypeScript — 1 из 15 репозиториев.</desc>
+  <desc id="dsc">Статистика профиля GitHub @1notlov3 на 2026-08-10. Публичных репозиториев: 19. Звёзд: 3. Подписчиков: 1. Языки в публичных репозиториях: HTML — 7 из 16 репозиториев, Python — 2 из 16 репозиториев, TypeScript — 2 из 16 репозиториев, JavaScript — 2 из 16 репозиториев, Jupyter Notebook — 1 из 16 репозиториев.</desc>
   <rect x="0" y="0" width="1200" height="350" rx="0" fill="#0D1117"/>
   <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#8B99AE" letter-spacing="3.4">GITHUB · @1notlov3</text>
   <line x1="64" y1="76" x2="1136" y2="76" stroke="#24334A" stroke-width="1"/>
@@ -8,7 +8,7 @@
   <text x="88" y="128" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="700" fill="#FFB020" letter-spacing="2.4">ПРОФИЛЬ</text>
   <line x1="88" y1="144" x2="440" y2="144" stroke="#1E2C42" stroke-width="1"/>
   <text x="88" y="184" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Публичные репозитории</text>
-  <text x="440" y="184" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="24" font-weight="700" fill="#E9EEF7" text-anchor="end">18</text>
+  <text x="440" y="184" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="24" font-weight="700" fill="#E9EEF7" text-anchor="end">19</text>
   <text x="88" y="228" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Звёзды</text>
   <text x="440" y="228" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="24" font-weight="700" fill="#E9EEF7" text-anchor="end">3</text>
   <text x="88" y="272" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Подписчики</text>
@@ -19,21 +19,21 @@
   <text x="520" y="176" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#E9EEF7">HTML</text>
   <rect x="756" y="164" width="300" height="10" rx="5" fill="#0B1421"/>
   <rect x="756" y="164" width="300" height="10" rx="5" fill="#3ED8C6"/>
-  <text x="1112" y="176" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">47%</text>
+  <text x="1112" y="176" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">44%</text>
   <text x="520" y="200" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Python</text>
   <rect x="756" y="188" width="300" height="10" rx="5" fill="#0B1421"/>
   <rect x="756" y="188" width="86" height="10" rx="5" fill="#93A1B5"/>
-  <text x="1112" y="200" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">13%</text>
-  <text x="520" y="224" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">JavaScript</text>
+  <text x="1112" y="200" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">12%</text>
+  <text x="520" y="224" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">TypeScript</text>
   <rect x="756" y="212" width="300" height="10" rx="5" fill="#0B1421"/>
   <rect x="756" y="212" width="86" height="10" rx="5" fill="#93A1B5"/>
-  <text x="1112" y="224" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">13%</text>
-  <text x="520" y="248" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Jupyter Notebook</text>
+  <text x="1112" y="224" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">12%</text>
+  <text x="520" y="248" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">JavaScript</text>
   <rect x="756" y="236" width="300" height="10" rx="5" fill="#0B1421"/>
-  <rect x="756" y="236" width="43" height="10" rx="5" fill="#93A1B5"/>
-  <text x="1112" y="248" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">7%</text>
-  <text x="520" y="272" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">TypeScript</text>
+  <rect x="756" y="236" width="86" height="10" rx="5" fill="#93A1B5"/>
+  <text x="1112" y="248" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">12%</text>
+  <text x="520" y="272" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Jupyter Notebook</text>
   <rect x="756" y="260" width="300" height="10" rx="5" fill="#0B1421"/>
   <rect x="756" y="260" width="43" height="10" rx="5" fill="#93A1B5"/>
-  <text x="1112" y="272" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">7%</text>
+  <text x="1112" y="272" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" font-weight="400" fill="#93A1B5" text-anchor="end">6%</text>
 </svg>

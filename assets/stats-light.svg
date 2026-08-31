@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-labelledby="ttl dsc">
   <title id="ttl">Статистика GitHub</title>
-  <desc id="dsc">Статистика профиля GitHub @1notlov3 на 2026-08-24. Публичных репозиториев: 19. Звёзд: 3. Подписчиков: 1. Языки в публичных репозиториях: HTML — 7 из 16 репозиториев, Python — 2 из 16 репозиториев, TypeScript — 2 из 16 репозиториев, JavaScript — 2 из 16 репозиториев, Jupyter Notebook — 1 из 16 репозиториев.</desc>
+  <desc id="dsc">Статистика профиля GitHub @1notlov3 на 2026-08-31. Публичных репозиториев: 19. Звёзд: 3. Подписчиков: 2. Языки в публичных репозиториях: HTML — 7 из 16 репозиториев, Python — 2 из 16 репозиториев, TypeScript — 2 из 16 репозиториев, JavaScript — 2 из 16 репозиториев, Jupyter Notebook — 1 из 16 репозиториев.</desc>
   <rect x="0" y="0" width="1200" height="350" rx="0" fill="#FFFFFF"/>
   <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="17" font-weight="400" fill="#59667A" letter-spacing="3.4">GITHUB · @1notlov3</text>
   <line x1="64" y1="76" x2="1136" y2="76" stroke="#E1E7F0" stroke-width="1"/>
@@ -12,7 +12,7 @@
   <text x="88" y="228" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Звёзды</text>
   <text x="440" y="228" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="24" font-weight="700" fill="#E9EEF7" text-anchor="end">3</text>
   <text x="88" y="272" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="400" fill="#93A1B5">Подписчики</text>
-  <text x="440" y="272" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="24" font-weight="700" fill="#E9EEF7" text-anchor="end">1</text>
+  <text x="440" y="272" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="24" font-weight="700" fill="#E9EEF7" text-anchor="end">2</text>
   <rect x="496" y="96" width="640" height="200" rx="14" fill="#0E1726" stroke="#22304A" stroke-width="1"/>
   <text x="520" y="128" font-family="ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" font-weight="700" fill="#FFB020" letter-spacing="2.4">ЯЗЫКИ В ПУБЛИЧНЫХ РЕПОЗИТОРИЯХ</text>
   <line x1="520" y1="144" x2="1112" y2="144" stroke="#22304A" stroke-width="1"/>

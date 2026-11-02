@@ -1,14 +1,14 @@
 {
   "user": "1notlov3",
-  "collected": "2026-10-26",
-  "repos": 19,
+  "collected": "2026-11-02",
+  "repos": 21,
   "followers": 2,
   "stars": 3,
   "languages": {
     "HTML": 7,
-    "Python": 2,
+    "Python": 3,
+    "JavaScript": 3,
     "TypeScript": 2,
-    "JavaScript": 2,
     "Jupyter Notebook": 1,
     "CSS": 1,
     "Astro": 1
